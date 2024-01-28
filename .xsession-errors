@@ -1,0 +1,69 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/45171/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/cc/ee106b/sp24/class/ee106b-abd/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session6
+dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+dbus-update-activation-environment: setting QT4_IM_MODULE=ibus
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path
+dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+dbus-update-activation-environment: setting DESKTOP_SESSION=mate
+dbus-update-activation-environment: setting GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module
+dbus-update-activation-environment: setting PWD=/home/cc/ee106b/sp24/class/ee106b-abd
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=mate
+dbus-update-activation-environment: setting LOGNAME=ee106b-abd
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/45171/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/cc/ee106b/sp24/class/ee106b-abd/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/ee106b-abd
+dbus-update-activation-environment: setting HOME=/home/cc/ee106b/sp24/class/ee106b-abd
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=MATE
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/mate.default.path
+dbus-update-activation-environment: setting USER=ee106b-abd
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+dbus-update-activation-environment: setting UBUNTU_MENUPROXY=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/45171
+dbus-update-activation-environment: setting COMPIZ_CONFIG_PROFILE=mate
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/mate:/home/cc/ee106b/sp24/class/ee106b-abd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=mate
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/45171/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+mate-session[1036720]: WARNING: Unable to find provider '' of required component 'dock'
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Window manager warning: Log level 128: Name com.canonical.AppMenu.Registrar does not exist on the session bus
+
+
+** (process:1037083): WARNING **: 15:02:35.322: could not find the desktop file for 'org.gnome.Calendar.desktop'
+
+(process:1037083): Indicator-Datetime-WARNING **: 15:02:35.344: indicator-datetime cannot show EDS appointments: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+
+(process:1037148): indicator-sound-WARNING **: 15:02:35.438: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/45171/pulse/dbus-socket': Could not connect: No such file or directory
+
+(nm-applet:1037222): Gtk-WARNING **: 15:02:35.917: Can't set a parent on widget which has a parent
+blueman-applet 15.02.36 WARNING  PluginManager:147 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 15.02.36 WARNING  PluginManager:147 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+INFO:root:The HUD is disabled via org.mate.hud in gsettings.
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+blueman-applet 15.02.59 WARNING  DiscvManager:109 update_menuitems: warning: Adapter is None
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 16: Visible region is null
+Window manager warning: Log level 16: Visible region is null
+mate-session[1036720]: WARNING: Child process 2392646 was already dead.
+mate-session[1036720]: WARNING: Child process 2467638 was already dead.

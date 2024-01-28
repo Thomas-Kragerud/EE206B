@@ -1,0 +1,188 @@
+[rosmaster.main][INFO] 2024-01-27 17:19:06,907: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-01-27 17:19:06,907: Starting ROS Master Node
+[xmlrpc][INFO] 2024-01-27 17:19:06,908: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-01-27 17:19:06,908: Started XML-RPC server [http://192.168.1.6:11311/]
+[xmlrpc][INFO] 2024-01-27 17:19:06,908: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-01-27 17:19:06,908: Master initialized: port[11311], uri[http://192.168.1.6:11311/]
+[rosmaster.master][INFO] 2024-01-27 17:19:06,940: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 17:19:06,941: +PARAM [/roslaunch/uris/host_192_168_1_6__46233] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 17:19:07,054: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 17:19:07,054: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 17:19:07,064: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.6:43719/
+[rosmaster.master][INFO] 2024-01-27 17:19:07,064: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.6:43719/
+[rosmaster.master][INFO] 2024-01-27 17:19:07,065: +PUB [/rosout_agg] /rosout http://192.168.1.6:43719/
+[rosmaster.master][INFO] 2024-01-27 17:19:07,067: +SUB [/rosout] /rosout http://192.168.1.6:43719/
+[rosmaster.master][INFO] 2024-01-27 17:24:51,638: +PUB [/rosout] /talker_1877468_1706405091561 http://192.168.1.6:41937/
+[rosmaster.master][INFO] 2024-01-27 17:24:51,640: +SERVICE [/talker_1877468_1706405091561/get_loggers] /talker_1877468_1706405091561 http://192.168.1.6:41937/
+[rosmaster.master][INFO] 2024-01-27 17:24:51,640: +SERVICE [/talker_1877468_1706405091561/set_logger_level] /talker_1877468_1706405091561 http://192.168.1.6:41937/
+[rosmaster.master][INFO] 2024-01-27 17:24:51,641: +PUB [/chatter_talk] /talker_1877468_1706405091561 http://192.168.1.6:41937/
+[rosmaster.master][INFO] 2024-01-27 17:24:51,681: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:41937/']
+[rosmaster.master][INFO] 2024-01-27 17:24:51,683: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:41937/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:24:58,390: -PUB [/rosout] /talker_1877468_1706405091561 http://192.168.1.6:41937/
+[rosmaster.master][INFO] 2024-01-27 17:24:58,391: -PUB [/chatter_talk] /talker_1877468_1706405091561 http://192.168.1.6:41937/
+[rosmaster.master][INFO] 2024-01-27 17:24:58,391: -SERVICE [/talker_1877468_1706405091561/get_loggers] /talker_1877468_1706405091561 rosrpc://192.168.1.6:44897
+[rosmaster.master][INFO] 2024-01-27 17:24:58,391: -SERVICE [/talker_1877468_1706405091561/set_logger_level] /talker_1877468_1706405091561 rosrpc://192.168.1.6:44897
+[rosmaster.master][INFO] 2024-01-27 17:24:58,392: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ []
+[rosmaster.master][INFO] 2024-01-27 17:24:58,393: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:27:21,097: +PUB [/rosout] /listener_1892611_1706405240919 http://192.168.1.6:38317/
+[rosmaster.master][INFO] 2024-01-27 17:27:21,099: +SERVICE [/listener_1892611_1706405240919/get_loggers] /listener_1892611_1706405240919 http://192.168.1.6:38317/
+[rosmaster.master][INFO] 2024-01-27 17:27:21,100: +SERVICE [/listener_1892611_1706405240919/set_logger_level] /listener_1892611_1706405240919 http://192.168.1.6:38317/
+[rosmaster.master][INFO] 2024-01-27 17:27:21,102: +SUB [/chatter_talk] /listener_1892611_1706405240919 http://192.168.1.6:38317/
+[rosmaster.master][INFO] 2024-01-27 17:27:21,185: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/']
+[rosmaster.master][INFO] 2024-01-27 17:27:21,186: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:28:53,094: +PUB [/rosout] /listener_1901849_1706405332902 http://192.168.1.6:37267/
+[rosmaster.master][INFO] 2024-01-27 17:28:53,096: +SERVICE [/listener_1901849_1706405332902/get_loggers] /listener_1901849_1706405332902 http://192.168.1.6:37267/
+[rosmaster.master][INFO] 2024-01-27 17:28:53,096: +SERVICE [/listener_1901849_1706405332902/set_logger_level] /listener_1901849_1706405332902 http://192.168.1.6:37267/
+[rosmaster.master][INFO] 2024-01-27 17:28:53,098: +SUB [/chatter_talk] /listener_1901849_1706405332902 http://192.168.1.6:37267/
+[rosmaster.master][INFO] 2024-01-27 17:28:53,111: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/']
+[rosmaster.master][INFO] 2024-01-27 17:28:53,112: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:29:50,553: +PUB [/rosout] /talker_1907631_1706405390375 http://192.168.1.6:43313/
+[rosmaster.master][INFO] 2024-01-27 17:29:50,554: +SERVICE [/talker_1907631_1706405390375/get_loggers] /talker_1907631_1706405390375 http://192.168.1.6:43313/
+[rosmaster.master][INFO] 2024-01-27 17:29:50,555: +SERVICE [/talker_1907631_1706405390375/set_logger_level] /talker_1907631_1706405390375 http://192.168.1.6:43313/
+[rosmaster.master][INFO] 2024-01-27 17:29:50,556: +PUB [/chatter_talk] /talker_1907631_1706405390375 http://192.168.1.6:43313/
+[rosmaster.master][INFO] 2024-01-27 17:29:50,589: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/', 'http://192.168.1.6:43313/']
+[rosmaster.master][INFO] 2024-01-27 17:29:50,589: publisherUpdate[/chatter_talk] -> http://192.168.1.6:38317/ ['http://192.168.1.6:43313/']
+[rosmaster.master][INFO] 2024-01-27 17:29:50,589: publisherUpdate[/chatter_talk] -> http://192.168.1.6:37267/ ['http://192.168.1.6:43313/']
+[rosmaster.master][INFO] 2024-01-27 17:29:50,590: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/', 'http://192.168.1.6:43313/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:29:50,591: publisherUpdate[/chatter_talk] -> http://192.168.1.6:38317/ ['http://192.168.1.6:43313/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:29:50,591: publisherUpdate[/chatter_talk] -> http://192.168.1.6:37267/ ['http://192.168.1.6:43313/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:30:52,951: +PUB [/rosout] /rqt_gui_py_node_1913529 http://192.168.1.6:35785/
+[rosmaster.master][INFO] 2024-01-27 17:30:52,953: +SERVICE [/rqt_gui_py_node_1913529/get_loggers] /rqt_gui_py_node_1913529 http://192.168.1.6:35785/
+[rosmaster.master][INFO] 2024-01-27 17:30:52,953: +SERVICE [/rqt_gui_py_node_1913529/set_logger_level] /rqt_gui_py_node_1913529 http://192.168.1.6:35785/
+[rosmaster.master][INFO] 2024-01-27 17:30:52,965: +SUB [/statistics] /rqt_gui_py_node_1913529 http://192.168.1.6:35785/
+[rosmaster.master][INFO] 2024-01-27 17:30:52,974: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/', 'http://192.168.1.6:43313/', 'http://192.168.1.6:35785/']
+[rosmaster.master][INFO] 2024-01-27 17:30:52,975: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/', 'http://192.168.1.6:43313/', 'http://192.168.1.6:35785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:31:46,998: -PUB [/rosout] /talker_1907631_1706405390375 http://192.168.1.6:43313/
+[rosmaster.master][INFO] 2024-01-27 17:31:46,998: -PUB [/chatter_talk] /talker_1907631_1706405390375 http://192.168.1.6:43313/
+[rosmaster.master][INFO] 2024-01-27 17:31:46,998: -SERVICE [/talker_1907631_1706405390375/get_loggers] /talker_1907631_1706405390375 rosrpc://192.168.1.6:39197
+[rosmaster.master][INFO] 2024-01-27 17:31:46,998: -SERVICE [/talker_1907631_1706405390375/set_logger_level] /talker_1907631_1706405390375 rosrpc://192.168.1.6:39197
+[rosmaster.master][INFO] 2024-01-27 17:31:47,048: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/', 'http://192.168.1.6:35785/']
+[rosmaster.master][INFO] 2024-01-27 17:31:47,048: publisherUpdate[/chatter_talk] -> http://192.168.1.6:38317/ []
+[rosmaster.master][INFO] 2024-01-27 17:31:47,048: publisherUpdate[/chatter_talk] -> http://192.168.1.6:37267/ []
+[rosmaster.master][INFO] 2024-01-27 17:31:47,049: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:38317/', 'http://192.168.1.6:37267/', 'http://192.168.1.6:35785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:31:47,049: publisherUpdate[/chatter_talk] -> http://192.168.1.6:38317/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:31:47,050: publisherUpdate[/chatter_talk] -> http://192.168.1.6:37267/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:31:48,430: -SUB [/chatter_talk] /listener_1892611_1706405240919 http://192.168.1.6:38317/
+[rosmaster.master][INFO] 2024-01-27 17:31:48,430: -PUB [/rosout] /listener_1892611_1706405240919 http://192.168.1.6:38317/
+[rosmaster.master][INFO] 2024-01-27 17:31:48,430: -SERVICE [/listener_1892611_1706405240919/get_loggers] /listener_1892611_1706405240919 rosrpc://192.168.1.6:35027
+[rosmaster.master][INFO] 2024-01-27 17:31:48,430: -SERVICE [/listener_1892611_1706405240919/set_logger_level] /listener_1892611_1706405240919 rosrpc://192.168.1.6:35027
+[rosmaster.master][INFO] 2024-01-27 17:31:48,451: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:37267/', 'http://192.168.1.6:35785/']
+[rosmaster.master][INFO] 2024-01-27 17:31:48,452: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:37267/', 'http://192.168.1.6:35785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:31:49,454: -SUB [/chatter_talk] /listener_1901849_1706405332902 http://192.168.1.6:37267/
+[rosmaster.master][INFO] 2024-01-27 17:31:49,454: -PUB [/rosout] /listener_1901849_1706405332902 http://192.168.1.6:37267/
+[rosmaster.master][INFO] 2024-01-27 17:31:49,454: -SERVICE [/listener_1901849_1706405332902/get_loggers] /listener_1901849_1706405332902 rosrpc://192.168.1.6:45261
+[rosmaster.master][INFO] 2024-01-27 17:31:49,454: -SERVICE [/listener_1901849_1706405332902/set_logger_level] /listener_1901849_1706405332902 rosrpc://192.168.1.6:45261
+[rosmaster.master][INFO] 2024-01-27 17:31:49,553: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:35785/']
+[rosmaster.master][INFO] 2024-01-27 17:31:49,554: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:35785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:31:51,591: -SUB [/statistics] /rqt_gui_py_node_1913529 http://192.168.1.6:35785/
+[rosmaster.master][INFO] 2024-01-27 17:31:51,592: -PUB [/rosout] /rqt_gui_py_node_1913529 http://192.168.1.6:35785/
+[rosmaster.master][INFO] 2024-01-27 17:31:51,592: -SERVICE [/rqt_gui_py_node_1913529/get_loggers] /rqt_gui_py_node_1913529 rosrpc://192.168.1.6:35721
+[rosmaster.master][INFO] 2024-01-27 17:31:51,592: -SERVICE [/rqt_gui_py_node_1913529/set_logger_level] /rqt_gui_py_node_1913529 rosrpc://192.168.1.6:35721
+[rosmaster.master][INFO] 2024-01-27 17:31:51,656: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ []
+[rosmaster.master][INFO] 2024-01-27 17:31:51,657: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:33:55,282: +PUB [/rosout] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,282: +SERVICE [/turtlesim/get_loggers] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,282: +SERVICE [/turtlesim/set_logger_level] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,283: +PARAM [/turtlesim/background_r] by /turtlesim
+[rosmaster.master][INFO] 2024-01-27 17:33:55,284: +PARAM [/turtlesim/background_g] by /turtlesim
+[rosmaster.master][INFO] 2024-01-27 17:33:55,284: +PARAM [/turtlesim/background_b] by /turtlesim
+[rosmaster.master][INFO] 2024-01-27 17:33:55,325: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/']
+[rosmaster.master][INFO] 2024-01-27 17:33:55,326: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:33:55,328: +SERVICE [/clear] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,329: +SERVICE [/reset] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,329: +SERVICE [/spawn] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,329: +SERVICE [/kill] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,330: +CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2024-01-27 17:33:55,332: +SUB [/turtle1/cmd_vel] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,332: +PUB [/turtle1/pose] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,333: +PUB [/turtle1/color_sensor] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,333: +SERVICE [/turtle1/set_pen] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,333: +SERVICE [/turtle1/teleport_relative] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:33:55,334: +SERVICE [/turtle1/teleport_absolute] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 17:57:56,764: +PUB [/rosout] /teleop_turtle http://192.168.1.6:37927/
+[rosmaster.master][INFO] 2024-01-27 17:57:56,765: +SERVICE [/teleop_turtle/get_loggers] /teleop_turtle http://192.168.1.6:37927/
+[rosmaster.master][INFO] 2024-01-27 17:57:56,765: +SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle http://192.168.1.6:37927/
+[rosmaster.master][INFO] 2024-01-27 17:57:56,766: +PUB [/turtle1/cmd_vel] /teleop_turtle http://192.168.1.6:37927/
+[rosmaster.master][INFO] 2024-01-27 17:57:56,814: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/']
+[rosmaster.master][INFO] 2024-01-27 17:57:56,814: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:46409/ ['http://192.168.1.6:37927/']
+[rosmaster.master][INFO] 2024-01-27 17:57:56,814: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:57:56,815: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:46409/ ['http://192.168.1.6:37927/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:58:26,126: +PUB [/rosout] /rqt_gui_py_node_2076867 http://192.168.1.6:39557/
+[rosmaster.master][INFO] 2024-01-27 17:58:26,128: +SERVICE [/rqt_gui_py_node_2076867/get_loggers] /rqt_gui_py_node_2076867 http://192.168.1.6:39557/
+[rosmaster.master][INFO] 2024-01-27 17:58:26,129: +SERVICE [/rqt_gui_py_node_2076867/set_logger_level] /rqt_gui_py_node_2076867 http://192.168.1.6:39557/
+[rosmaster.master][INFO] 2024-01-27 17:58:26,142: +SUB [/statistics] /rqt_gui_py_node_2076867 http://192.168.1.6:39557/
+[rosmaster.master][INFO] 2024-01-27 17:58:26,152: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/', 'http://192.168.1.6:39557/']
+[rosmaster.master][INFO] 2024-01-27 17:58:26,153: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/', 'http://192.168.1.6:39557/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 17:59:31,084: -SUB [/statistics] /rqt_gui_py_node_2076867 http://192.168.1.6:39557/
+[rosmaster.master][INFO] 2024-01-27 17:59:31,084: -PUB [/rosout] /rqt_gui_py_node_2076867 http://192.168.1.6:39557/
+[rosmaster.master][INFO] 2024-01-27 17:59:31,084: -SERVICE [/rqt_gui_py_node_2076867/get_loggers] /rqt_gui_py_node_2076867 rosrpc://192.168.1.6:44415
+[rosmaster.master][INFO] 2024-01-27 17:59:31,084: -SERVICE [/rqt_gui_py_node_2076867/set_logger_level] /rqt_gui_py_node_2076867 rosrpc://192.168.1.6:44415
+[rosmaster.master][INFO] 2024-01-27 17:59:31,142: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/']
+[rosmaster.master][INFO] 2024-01-27 17:59:31,143: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:29:15,744: +PUB [/rosout] /rostopic_2255768_1706408955565 http://192.168.1.6:44331/
+[rosmaster.master][INFO] 2024-01-27 18:29:15,746: +SERVICE [/rostopic_2255768_1706408955565/get_loggers] /rostopic_2255768_1706408955565 http://192.168.1.6:44331/
+[rosmaster.master][INFO] 2024-01-27 18:29:15,747: +SERVICE [/rostopic_2255768_1706408955565/set_logger_level] /rostopic_2255768_1706408955565 http://192.168.1.6:44331/
+[rosmaster.master][INFO] 2024-01-27 18:29:15,757: +SUB [/turtle1/cmd_vel] /rostopic_2255768_1706408955565 http://192.168.1.6:44331/
+[rosmaster.master][INFO] 2024-01-27 18:29:15,809: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/', 'http://192.168.1.6:44331/']
+[rosmaster.master][INFO] 2024-01-27 18:29:15,810: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:37927/', 'http://192.168.1.6:44331/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:45:36,811: -PUB [/rosout] /teleop_turtle http://192.168.1.6:37927/
+[rosmaster.master][INFO] 2024-01-27 18:45:36,811: -PUB [/turtle1/cmd_vel] /teleop_turtle http://192.168.1.6:37927/
+[rosmaster.master][INFO] 2024-01-27 18:45:36,812: -SERVICE [/teleop_turtle/get_loggers] /teleop_turtle rosrpc://192.168.1.6:42655
+[rosmaster.master][INFO] 2024-01-27 18:45:36,812: -SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle rosrpc://192.168.1.6:42655
+[rosmaster.master][INFO] 2024-01-27 18:45:36,842: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:44331/']
+[rosmaster.master][INFO] 2024-01-27 18:45:36,842: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:46409/ []
+[rosmaster.master][INFO] 2024-01-27 18:45:36,842: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:44331/ []
+[rosmaster.master][INFO] 2024-01-27 18:45:36,843: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:44331/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:45:36,843: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:46409/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:45:36,844: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:44331/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:48:48,339: +PUB [/rosout] /rqt_gui_py_node_2368327 http://192.168.1.6:39207/
+[rosmaster.master][INFO] 2024-01-27 18:48:48,341: +SERVICE [/rqt_gui_py_node_2368327/get_loggers] /rqt_gui_py_node_2368327 http://192.168.1.6:39207/
+[rosmaster.master][INFO] 2024-01-27 18:48:48,342: +SERVICE [/rqt_gui_py_node_2368327/set_logger_level] /rqt_gui_py_node_2368327 http://192.168.1.6:39207/
+[rosmaster.master][INFO] 2024-01-27 18:48:48,356: +SUB [/statistics] /rqt_gui_py_node_2368327 http://192.168.1.6:39207/
+[rosmaster.master][INFO] 2024-01-27 18:48:48,400: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:44331/', 'http://192.168.1.6:39207/']
+[rosmaster.master][INFO] 2024-01-27 18:48:48,401: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:44331/', 'http://192.168.1.6:39207/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:54:10,275: +PUB [/rosout] /teleop_turtle http://192.168.1.6:33067/
+[rosmaster.master][INFO] 2024-01-27 18:54:10,276: +SERVICE [/teleop_turtle/get_loggers] /teleop_turtle http://192.168.1.6:33067/
+[rosmaster.master][INFO] 2024-01-27 18:54:10,276: +SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle http://192.168.1.6:33067/
+[rosmaster.master][INFO] 2024-01-27 18:54:10,277: +PUB [/turtle1/cmd_vel] /teleop_turtle http://192.168.1.6:33067/
+[rosmaster.master][INFO] 2024-01-27 18:54:10,339: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:44331/', 'http://192.168.1.6:39207/', 'http://192.168.1.6:33067/']
+[rosmaster.master][INFO] 2024-01-27 18:54:10,339: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:46409/ ['http://192.168.1.6:33067/']
+[rosmaster.master][INFO] 2024-01-27 18:54:10,339: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:44331/ ['http://192.168.1.6:33067/']
+[rosmaster.master][INFO] 2024-01-27 18:54:10,339: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:44331/', 'http://192.168.1.6:39207/', 'http://192.168.1.6:33067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:54:10,340: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:46409/ ['http://192.168.1.6:33067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:54:10,341: publisherUpdate[/turtle1/cmd_vel] -> http://192.168.1.6:44331/ ['http://192.168.1.6:33067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:54:48,269: -SUB [/turtle1/cmd_vel] /rostopic_2255768_1706408955565 http://192.168.1.6:44331/
+[rosmaster.master][INFO] 2024-01-27 18:54:48,269: -PUB [/rosout] /rostopic_2255768_1706408955565 http://192.168.1.6:44331/
+[rosmaster.master][INFO] 2024-01-27 18:54:48,269: -SERVICE [/rostopic_2255768_1706408955565/get_loggers] /rostopic_2255768_1706408955565 rosrpc://192.168.1.6:34157
+[rosmaster.master][INFO] 2024-01-27 18:54:48,269: -SERVICE [/rostopic_2255768_1706408955565/set_logger_level] /rostopic_2255768_1706408955565 rosrpc://192.168.1.6:34157
+[rosmaster.master][INFO] 2024-01-27 18:54:48,289: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:39207/', 'http://192.168.1.6:33067/']
+[rosmaster.master][INFO] 2024-01-27 18:54:48,289: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:46409/', 'http://192.168.1.6:39207/', 'http://192.168.1.6:33067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:55:49,484: -SERVICE [/turtle1/teleport_absolute] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,485: -SERVICE [/turtle1/teleport_relative] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,486: -SERVICE [/turtle1/set_pen] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,486: -PUB [/turtle1/color_sensor] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 18:55:49,487: -PUB [/turtle1/pose] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 18:55:49,487: -SUB [/turtle1/cmd_vel] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 18:55:49,488: -SERVICE [/kill] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,489: -SERVICE [/spawn] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,489: -SERVICE [/reset] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,490: -SERVICE [/clear] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,667: -PUB [/rosout] /turtlesim http://192.168.1.6:46409/
+[rosmaster.master][INFO] 2024-01-27 18:55:49,668: -SERVICE [/turtlesim/get_loggers] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,669: -SERVICE [/turtlesim/set_logger_level] /turtlesim rosrpc://192.168.1.6:52205
+[rosmaster.master][INFO] 2024-01-27 18:55:49,669: -CACHEDPARAM [/rosout_disable_topics_generation] by /turtlesim
+[rosmaster.master][INFO] 2024-01-27 18:55:49,672: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:39207/', 'http://192.168.1.6:33067/']
+[rosmaster.master][INFO] 2024-01-27 18:55:49,673: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:39207/', 'http://192.168.1.6:33067/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:55:55,674: -PUB [/rosout] /teleop_turtle http://192.168.1.6:33067/
+[rosmaster.master][INFO] 2024-01-27 18:55:55,675: -PUB [/turtle1/cmd_vel] /teleop_turtle http://192.168.1.6:33067/
+[rosmaster.master][INFO] 2024-01-27 18:55:55,675: -SERVICE [/teleop_turtle/get_loggers] /teleop_turtle rosrpc://192.168.1.6:59853
+[rosmaster.master][INFO] 2024-01-27 18:55:55,676: -SERVICE [/teleop_turtle/set_logger_level] /teleop_turtle rosrpc://192.168.1.6:59853
+[rosmaster.master][INFO] 2024-01-27 18:55:55,681: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:39207/']
+[rosmaster.master][INFO] 2024-01-27 18:55:55,681: publisherUpdate[/rosout] -> http://192.168.1.6:43719/ ['http://192.168.1.6:39207/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:56:10,501: -PUB [/rosout_agg] /rosout http://192.168.1.6:43719/
+[rosmaster.master][INFO] 2024-01-27 18:56:10,501: -SUB [/rosout] /rosout http://192.168.1.6:43719/
+[rosmaster.master][INFO] 2024-01-27 18:56:10,502: -SERVICE [/rosout/get_loggers] /rosout rosrpc://192.168.1.6:44441
+[rosmaster.master][INFO] 2024-01-27 18:56:10,502: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://192.168.1.6:44441
+[rosmaster.main][INFO] 2024-01-27 18:56:10,524: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-01-27 18:56:10,525: stopping master...
+[rospy.core][INFO] 2024-01-27 18:56:10,525: signal_shutdown [atexit]

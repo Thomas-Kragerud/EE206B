@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2024-01-27 17:29:50,449: init_node, name[/talker_1907631_1706405390375], pid[1907631]
+[xmlrpc][INFO] 2024-01-27 17:29:50,450: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-01-27 17:29:50,450: Started XML-RPC server [http://192.168.1.6:43313/]
+[rospy.init][INFO] 2024-01-27 17:29:50,450: ROS Slave URI: [http://192.168.1.6:43313/]
+[rospy.impl.masterslave][INFO] 2024-01-27 17:29:50,450: _ready: http://192.168.1.6:43313/
+[rospy.registration][INFO] 2024-01-27 17:29:50,451: Registering with master node http://192.168.1.6:11311
+[xmlrpc][INFO] 2024-01-27 17:29:50,451: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-01-27 17:29:50,550: registered with master
+[rospy.rosout][INFO] 2024-01-27 17:29:50,551: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-01-27 17:29:50,553: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-01-27 17:29:50,554: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2024-01-27 17:29:50,593: topic[/chatter_talk] adding connection to [/listener_1892611_1706405240919], count 0
+[rospy.internal][INFO] 2024-01-27 17:29:50,594: topic[/chatter_talk] adding connection to [/listener_1901849_1706405332902], count 1
+[rospy.internal][INFO] 2024-01-27 17:29:50,791: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2024-01-27 17:31:46,997: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2024-01-27 17:31:46,999: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2024-01-27 17:31:46,999: topic[/chatter_talk] removing connection to /listener_1892611_1706405240919
+[rospy.internal][INFO] 2024-01-27 17:31:47,000: topic[/chatter_talk] removing connection to /listener_1901849_1706405332902
+[rospy.impl.masterslave][INFO] 2024-01-27 17:31:47,000: signal-2
+[rospy.core][INFO] 2024-01-27 17:31:47,598: signal_shutdown [atexit]

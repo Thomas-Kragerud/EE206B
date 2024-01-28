@@ -1,0 +1,84 @@
+[roslaunch][INFO] 2024-01-27 17:19:06,341: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2024-01-27 17:19:06,347: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2024-01-27 17:19:06,347: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2024-01-27 17:19:06,347: roslaunch env is environ({'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'SESSION_MANAGER': 'local/c105-6:@/tmp/.ICE-unix/1036720,unix/c105-6:/tmp/.ICE-unix/1036720', 'WINDOWID': '25171306', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session6', 'GTK_IM_MODULE': 'ibus', 'PKG_CONFIG_PATH': '/opt/ros/eecsbot_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'ROS_SAWYER_SIM': 'true', 'QT4_IM_MODULE': 'ibus', 'MANDATORY_PATH': '/usr/share/gconf/mate.mandatory.path', 'SSH_AUTH_SOCK': '/run/user/45171/keyring/ssh', 'OS': 'Linux', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'mate', 'SSH_AGENT_PID': '1036852', 'ROS_PACKAGE_PATH': '/opt/ros/eecsbot_ws/src:/opt/ros/noetic/share', 'EDITOR': 'emacs', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'ROSLISP_PACKAGE_DIRECTORIES': '/opt/ros/eecsbot_ws/devel/share/common-lisp', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SEAT': 'seat0', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PWD': '/home/cc/ee106b/sp24/class/ee106b-abd/ros_workspaces/proj0', 'LOGNAME': 'ee106b-abd', 'XDG_SESSION_DESKTOP': 'mate', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'XDG_SESSION_TYPE': 'x11', 'MANPATH': '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:', 'GPG_AGENT_INFO': '/run/user/45171/gnupg/S.gpg-agent:0:1', 'XAUTHORITY': '/home/cc/ee106b/sp24/class/ee106b-abd/.Xauthority', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ee106b-abd', 'MASTERDIR': '/home/ff/ee106b', 'HOME': '/home/cc/ee106b/sp24/class/ee106b-abd', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'XDG_CURRENT_DESKTOP': 'MATE', 'VTE_VERSION': '6003', 'EE106_ENV_SETUP': 'sawyer_sim', 'CMAKE_PREFIX_PATH': '/opt/ros/eecsbot_ws/devel:/opt/ros/noetic', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'INVOCATION_ID': 'aacf5b3a06e84b55ae8bd17ed3072c5b', 'NNTPSERVER': 'news.csua.berkeley.edu', 'MANAGERPID': '1036696', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/opt/ros/eecsbot_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'DEFAULTS_PATH': '/usr/share/gconf/mate.default.path', 'USER': 'ee106b-abd', 'ARCH': 'x86_64', 'VISUAL': 'emacs', 'DISPLAY': ':0', 'SHLVL': '1', 'MASTER': 'ee106b', 'ROS_MASTER_URI': 'http://192.168.1.6:11311', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'UBUNTU_MENUPROXY': '1', 'XDG_SESSION_ID': 'c14', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/45171/bus,guid=221a201a705c748a5a52b37265b58b8a', 'ROS_HOSTNAME': '192.168.1.6', 'LD_LIBRARY_PATH': '/opt/ros/eecsbot_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/run/user/45171', 'COMPIZ_CONFIG_PROFILE': 'mate', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:21978310', 'XDG_DATA_DIRS': '/usr/share/mate:/home/cc/ee106b/sp24/class/ee106b-abd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PATH': '/opt/ros/noetic/bin:/share/b/grading/bin:/home/ff/ee106b/bin:/home/ff/ee106b/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin', 'GDMSESSION': 'mate', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/45171/bus,guid=221a201a705c748a5a52b37265b58b8a', 'RUNAS': '/share/b/runas/x86_64', 'QT_SCALE_FACTOR': '1', 'CONFIG_SHELL': '/usr/bin/ksh', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', '_': '/opt/ros/noetic/bin/roscore', 'OLDPWD': '/home/cc/ee106b/sp24/class/ee106b-abd/ros_workspaces', 'ROS_LOG_FILENAME': '/home/cc/ee106b/sp24/class/ee106b-abd/.ros/log/3af04e44-bd7b-11ee-8fbd-c73316ba2195/roslaunch-c105-6-1843633.log'})
+[roslaunch][INFO] 2024-01-27 17:19:06,347: starting in server mode
+[roslaunch.parent][INFO] 2024-01-27 17:19:06,347: starting roslaunch parent run
+[roslaunch][INFO] 2024-01-27 17:19:06,348: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2024-01-27 17:19:06,614: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2024-01-27 17:19:06,615: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2024-01-27 17:19:06,615: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2024-01-27 17:19:06,615: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2024-01-27 17:19:06,615: starting parent XML-RPC server
+[roslaunch.server][INFO] 2024-01-27 17:19:06,616: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2024-01-27 17:19:06,616: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2024-01-27 17:19:06,616: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-01-27 17:19:06,616: Started XML-RPC server [http://192.168.1.6:46233/]
+[xmlrpc][INFO] 2024-01-27 17:19:06,616: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2024-01-27 17:19:06,628: started roslaunch server http://192.168.1.6:46233/
+[roslaunch.parent][INFO] 2024-01-27 17:19:06,628: ... parent XML-RPC server started
+[roslaunch][INFO] 2024-01-27 17:19:06,628: master.is_running[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,630: auto-starting new master
+[roslaunch][INFO] 2024-01-27 17:19:06,630: create_master_process: rosmaster, /opt/ros/noetic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2024-01-27 17:19:06,630: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2024-01-27 17:19:06,630: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2024-01-27 17:19:06,630: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2024-01-27 17:19:06,630: process[master]: starting os process
+[roslaunch][INFO] 2024-01-27 17:19:06,631: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/cc/ee106b/sp24/class/ee106b-abd/.ros/log/3af04e44-bd7b-11ee-8fbd-c73316ba2195/master.log']]
+[roslaunch][INFO] 2024-01-27 17:19:06,631: process[master]: cwd will be [/home/cc/ee106b/sp24/class/ee106b-abd/.ros]
+[roslaunch][INFO] 2024-01-27 17:19:06,634: process[master]: started with pid [1843699]
+[roslaunch][INFO] 2024-01-27 17:19:06,634: master.is_running[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,735: master.is_running[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,836: master.is_running[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,936: master.is_running[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,938: master.is_running[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,939: ROS_MASTER_URI=http://192.168.1.6:11311/
+[roslaunch][INFO] 2024-01-27 17:19:06,940: setting /run_id to 3af04e44-bd7b-11ee-8fbd-c73316ba2195
+[roslaunch][INFO] 2024-01-27 17:19:06,940: setting /roslaunch/uris/host_192_168_1_6__46233' to http://192.168.1.6:46233/
+[roslaunch][INFO] 2024-01-27 17:19:06,942: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2024-01-27 17:19:06,942: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://192.168.1.6:11311/]
+[roslaunch][INFO] 2024-01-27 17:19:06,942: process[rosout-1]: env[{'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'SESSION_MANAGER': 'local/c105-6:@/tmp/.ICE-unix/1036720,unix/c105-6:/tmp/.ICE-unix/1036720', 'WINDOWID': '25171306', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session6', 'GTK_IM_MODULE': 'ibus', 'PKG_CONFIG_PATH': '/opt/ros/eecsbot_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'ROS_SAWYER_SIM': 'true', 'QT4_IM_MODULE': 'ibus', 'MANDATORY_PATH': '/usr/share/gconf/mate.mandatory.path', 'SSH_AUTH_SOCK': '/run/user/45171/keyring/ssh', 'OS': 'Linux', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'mate', 'SSH_AGENT_PID': '1036852', 'ROS_PACKAGE_PATH': '/opt/ros/eecsbot_ws/src:/opt/ros/noetic/share', 'EDITOR': 'emacs', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'ROSLISP_PACKAGE_DIRECTORIES': '/opt/ros/eecsbot_ws/devel/share/common-lisp', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SEAT': 'seat0', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PWD': '/home/cc/ee106b/sp24/class/ee106b-abd/ros_workspaces/proj0', 'LOGNAME': 'ee106b-abd', 'XDG_SESSION_DESKTOP': 'mate', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'XDG_SESSION_TYPE': 'x11', 'MANPATH': '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:', 'GPG_AGENT_INFO': '/run/user/45171/gnupg/S.gpg-agent:0:1', 'XAUTHORITY': '/home/cc/ee106b/sp24/class/ee106b-abd/.Xauthority', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ee106b-abd', 'MASTERDIR': '/home/ff/ee106b', 'HOME': '/home/cc/ee106b/sp24/class/ee106b-abd', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'XDG_CURRENT_DESKTOP': 'MATE', 'VTE_VERSION': '6003', 'EE106_ENV_SETUP': 'sawyer_sim', 'CMAKE_PREFIX_PATH': '/opt/ros/eecsbot_ws/devel:/opt/ros/noetic', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'INVOCATION_ID': 'aacf5b3a06e84b55ae8bd17ed3072c5b', 'NNTPSERVER': 'news.csua.berkeley.edu', 'MANAGERPID': '1036696', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/opt/ros/eecsbot_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'DEFAULTS_PATH': '/usr/share/gconf/mate.default.path', 'USER': 'ee106b-abd', 'ARCH': 'x86_64', 'VISUAL': 'emacs', 'DISPLAY': ':0', 'SHLVL': '1', 'MASTER': 'ee106b', 'ROS_MASTER_URI': 'http://192.168.1.6:11311/', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'UBUNTU_MENUPROXY': '1', 'XDG_SESSION_ID': 'c14', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/45171/bus,guid=221a201a705c748a5a52b37265b58b8a', 'ROS_HOSTNAME': '192.168.1.6', 'LD_LIBRARY_PATH': '/opt/ros/eecsbot_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/run/user/45171', 'COMPIZ_CONFIG_PROFILE': 'mate', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '8:21978310', 'XDG_DATA_DIRS': '/usr/share/mate:/home/cc/ee106b/sp24/class/ee106b-abd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PATH': '/opt/ros/noetic/bin:/share/b/grading/bin:/home/ff/ee106b/bin:/home/ff/ee106b/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin', 'GDMSESSION': 'mate', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/45171/bus,guid=221a201a705c748a5a52b37265b58b8a', 'RUNAS': '/share/b/runas/x86_64', 'QT_SCALE_FACTOR': '1', 'CONFIG_SHELL': '/usr/bin/ksh', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', '_': '/opt/ros/noetic/bin/roscore', 'OLDPWD': '/home/cc/ee106b/sp24/class/ee106b-abd/ros_workspaces', 'ROS_LOG_FILENAME': '/home/cc/ee106b/sp24/class/ee106b-abd/.ros/log/3af04e44-bd7b-11ee-8fbd-c73316ba2195/roslaunch-c105-6-1843633.log'}]
+[roslaunch][INFO] 2024-01-27 17:19:07,045: process[rosout-1]: args[['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2024-01-27 17:19:07,045: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2024-01-27 17:19:07,045: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2024-01-27 17:19:07,045: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2024-01-27 17:19:07,045: ... registered process [rosout-1]
+[roslaunch][INFO] 2024-01-27 17:19:07,045: process[rosout-1]: starting os process
+[roslaunch][INFO] 2024-01-27 17:19:07,047: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/home/cc/ee106b/sp24/class/ee106b-abd/.ros/log/3af04e44-bd7b-11ee-8fbd-c73316ba2195/rosout-1.log']]
+[roslaunch][INFO] 2024-01-27 17:19:07,047: process[rosout-1]: cwd will be [/home/cc/ee106b/sp24/class/ee106b-abd/.ros]
+[roslaunch][INFO] 2024-01-27 17:19:07,051: process[rosout-1]: started with pid [1843759]
+[roslaunch][INFO] 2024-01-27 17:19:07,051: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2024-01-27 17:19:07,051: load_parameters starting ...
+[roslaunch][INFO] 2024-01-27 17:19:07,054: ... load_parameters complete
+[roslaunch][INFO] 2024-01-27 17:19:07,054: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2024-01-27 17:19:07,055: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2024-01-27 17:19:07,055: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140122551441152)>
+[roslaunch.parent][INFO] 2024-01-27 17:19:07,055: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2024-01-27 17:19:07,055: spin
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,261: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140122551441152)>
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,322: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140122551441152)>
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,322: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140122551441152)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f70d2e84e20>, <roslaunch.nodeprocess.LocalProcess object at 0x7f70d2e84dc0>]
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,323: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2024-01-27 18:56:10,323: [rosout-1] killing on exit
+[roslaunch][INFO] 2024-01-27 18:56:10,323: process[rosout-1]: killing os process with pid[1843759] pgid[1843759]
+[roslaunch][INFO] 2024-01-27 18:56:10,324: [rosout-1] sending SIGINT to pgid [1843759]
+[roslaunch][INFO] 2024-01-27 18:56:10,324: [rosout-1] sent SIGINT to pgid [1843759]
+[roslaunch][INFO] 2024-01-27 18:56:10,524: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,524: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2024-01-27 18:56:10,524: [master] killing on exit
+[roslaunch][INFO] 2024-01-27 18:56:10,524: process[master]: killing os process with pid[1843699] pgid[1843699]
+[roslaunch][INFO] 2024-01-27 18:56:10,524: [master] sending SIGINT to pgid [1843699]
+[roslaunch][INFO] 2024-01-27 18:56:10,524: [master] sent SIGINT to pgid [1843699]
+[roslaunch][INFO] 2024-01-27 18:56:10,725: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,725: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,725: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2024-01-27 18:56:10,725: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2024-01-27 18:56:10,725: runner.stop()
+[roslaunch][INFO] 2024-01-27 18:56:10,725: shutting down processing monitor...
+[roslaunch][INFO] 2024-01-27 18:56:10,725: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140122551441152)>
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,725: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140122551441152)>
+[roslaunch][INFO] 2024-01-27 18:56:10,725: ... shutting down processing monitor complete
+[roslaunch][INFO] 2024-01-27 18:56:10,725: done
+[roslaunch.pmon][INFO] 2024-01-27 18:56:10,726: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140122551441152)>
+[rospy.core][INFO] 2024-01-27 18:56:10,726: signal_shutdown [atexit]

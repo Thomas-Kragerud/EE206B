@@ -1,0 +1,30 @@
+[rosmaster.main][INFO] 2024-01-27 18:56:14,791: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-01-27 18:56:14,791: Starting ROS Master Node
+[xmlrpc][INFO] 2024-01-27 18:56:14,792: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-01-27 18:56:14,792: Started XML-RPC server [http://192.168.1.6:11311/]
+[rosmaster.master][INFO] 2024-01-27 18:56:14,792: Master initialized: port[11311], uri[http://192.168.1.6:11311/]
+[xmlrpc][INFO] 2024-01-27 18:56:14,792: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-01-27 18:56:14,818: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 18:56:14,818: +PARAM [/roslaunch/uris/host_192_168_1_6__41991] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 18:56:14,931: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 18:56:14,931: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-01-27 18:56:14,941: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.6:39357/
+[rosmaster.master][INFO] 2024-01-27 18:56:14,942: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.6:39357/
+[rosmaster.master][INFO] 2024-01-27 18:56:14,943: +PUB [/rosout_agg] /rosout http://192.168.1.6:39357/
+[rosmaster.master][INFO] 2024-01-27 18:56:14,945: +SUB [/rosout] /rosout http://192.168.1.6:39357/
+[rosmaster.master][INFO] 2024-01-27 18:56:33,088: -SUB [/statistics] /rqt_gui_py_node_2368327 http://192.168.1.6:39207/
+[rosmaster.master][INFO] 2024-01-27 18:56:33,088: -PUB [/rosout] /rqt_gui_py_node_2368327 http://192.168.1.6:39207/
+[rosmaster.master][INFO] 2024-01-27 18:56:33,088: -SERVICE [/rqt_gui_py_node_2368327/get_loggers] /rqt_gui_py_node_2368327 rosrpc://192.168.1.6:36067
+[rosmaster.master][INFO] 2024-01-27 18:56:33,088: -SERVICE [/rqt_gui_py_node_2368327/set_logger_level] /rqt_gui_py_node_2368327 rosrpc://192.168.1.6:36067
+[rosmaster.master][INFO] 2024-01-27 18:57:23,100: +PUB [/rosout] /talker_2418386_1706410642920 http://192.168.1.6:42241/
+[rosmaster.master][INFO] 2024-01-27 18:57:23,102: +SERVICE [/talker_2418386_1706410642920/get_loggers] /talker_2418386_1706410642920 http://192.168.1.6:42241/
+[rosmaster.master][INFO] 2024-01-27 18:57:23,102: +SERVICE [/talker_2418386_1706410642920/set_logger_level] /talker_2418386_1706410642920 http://192.168.1.6:42241/
+[rosmaster.master][INFO] 2024-01-27 18:57:23,103: +PUB [/chatter_talk] /talker_2418386_1706410642920 http://192.168.1.6:42241/
+[rosmaster.master][INFO] 2024-01-27 18:57:23,187: publisherUpdate[/rosout] -> http://192.168.1.6:39357/ ['http://192.168.1.6:42241/']
+[rosmaster.master][INFO] 2024-01-27 18:57:23,190: publisherUpdate[/rosout] -> http://192.168.1.6:39357/ ['http://192.168.1.6:42241/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-01-27 18:57:26,535: -PUB [/rosout] /talker_2418386_1706410642920 http://192.168.1.6:42241/
+[rosmaster.master][INFO] 2024-01-27 18:57:26,535: -PUB [/chatter_talk] /talker_2418386_1706410642920 http://192.168.1.6:42241/
+[rosmaster.master][INFO] 2024-01-27 18:57:26,535: -SERVICE [/talker_2418386_1706410642920/get_loggers] /talker_2418386_1706410642920 rosrpc://192.168.1.6:35589
+[rosmaster.master][INFO] 2024-01-27 18:57:26,535: -SERVICE [/talker_2418386_1706410642920/set_logger_level] /talker_2418386_1706410642920 rosrpc://192.168.1.6:35589
+[rosmaster.master][INFO] 2024-01-27 18:57:26,593: publisherUpdate[/rosout] -> http://192.168.1.6:39357/ []
+[rosmaster.master][INFO] 2024-01-27 18:57:26,593: publisherUpdate[/rosout] -> http://192.168.1.6:39357/ []: sec=0.00, result=[1, '', 0]

@@ -1,0 +1,7 @@
+
+
+1706399046.522743157  Node Startup
+1706402002.659597047 INFO /turtlesim [/tmp/binarydeb/ros-noetic-turtlesim-0.10.2/src/turtle_frame.cpp:268(TurtleFrame::clearCallback)] [topics: /rosout, /turtle1/pose, /turtle1/color_sensor] Clearing turtlesim.
+1706402022.003525985 INFO /turtlesim [/tmp/binarydeb/ros-noetic-turtlesim-0.10.2/src/turtle_frame.cpp:268(TurtleFrame::clearCallback)] [topics: /rosout, /turtle1/pose, /turtle1/color_sensor] Clearing turtlesim.
+1706402513.571714460 ERROR /turtlesim [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/service_publication.cpp:138(CallbackInterface::CallResult ros::ServiceCallback::call)] [topics: /rosout, /turtle1/pose, /turtle1/color_sensor] Exception thrown while processing service call: Character [ ] at element [3] is not valid in Graph Resource Name [New Turtle].  Valid characters are a-z, A-Z, 0-9, / and _.
+1706402581.048038210 INFO /turtlesim [/tmp/binarydeb/ros-noetic-turtlesim-0.10.2/src/turtle_frame.cpp:197(string turtlesim::TurtleFrame::spawnTurtle)] [topics: /rosout, /turtle1/pose, /turtle1/color_sensor, /newturtle/pose, /newturtle/color_sensor] Spawning turtle [newturtle] at x=[2.000000], y=[2.000000], theta=[1.200000]
